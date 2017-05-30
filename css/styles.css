@@ -1,5 +1,55 @@
+body {
+  font-family: 'Source Sans Pro';
+  text-align: center;
+  color: #999;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h1, h3 {
+  margin: 0;
+  color: #555;
+}
+
+p {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #B65F5F;
+}
+
+a:visited {
+  color: #B65F5F;
+}
+
+a:hover {
+  color: #E2A677;
+}
+
+.rose {
+  color: #E2A677;
+}
+
+.rose:visited {
+  color: #E2A677;
+}
+
+.rose:hover {
+  color: #B65F5F;
+}
+
 canvas {
-  margin: 50px auto;
+  margin: 30px auto;
   display: block;
   padding: 0;
 }
